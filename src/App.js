@@ -9,8 +9,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Cards />} />
-        <Route path="/cart/:id" element={<CardDetails />} />
+        <Route exact path="/" element={<Cards />} />
+        <Route exact path="/cart/:id" element={<CardDetails />} />
       </Routes>
     </>
   );
