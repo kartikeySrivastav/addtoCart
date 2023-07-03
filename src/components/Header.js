@@ -37,7 +37,7 @@ const Header = () => {
     <>
       <Navbar bg="dark" variant="dark" style={{ height: 60 }}>
         <Container>
-          <NavLink to="/" className=" text-decoration-none text-light mx-3 ">
+          <NavLink className=" text-decoration-none text-light mx-3 ">
             Add to Cart
           </NavLink>
           <Badge
