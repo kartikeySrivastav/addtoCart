@@ -9,7 +9,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Cards />} />
+        <Route exact path="/addtoCart" element={<Cards />} />
         <Route exact path="/cart/:id" element={<CardDetails />} />
       </Routes>
     </>
